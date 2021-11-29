@@ -1,0 +1,1 @@
+web: start plataforma_cursos/wsgi.py
