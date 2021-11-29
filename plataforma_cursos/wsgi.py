@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 WSGI config for plataforma_cursos project.
 
@@ -14,3 +15,21 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'plataforma_cursos.settings')
 
 application = get_wsgi_application()
+=======
+"""
+WSGI config for plataforma_cursos project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
+"""
+
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'plataforma_cursos.settings')
+
+application = get_wsgi_application()
+>>>>>>> 1651482b46c304b36ab1d5056382003c08636891
